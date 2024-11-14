@@ -1,0 +1,56 @@
+body {
+      background-color: #f8f9fa;
+    }
+
+    .login-container {
+      max-width: 400px;
+      margin: 0 auto;
+      margin-top: 70px;
+      margin-bottom: 40px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-title {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .login-form input[type="name"],
+    .login-form input[type="email"],
+    .login-form input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-bottom: 40px;
+    }
+
+    .login-form button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: orange;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .login-form button[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    .login-form .signup-link {
+      text-align: center;
+    }
+
+    .login-form .signup-link a {
+      color: #007bff;
+    }
+.fa-user {
+  background-image: url(Photo/user.png);
+}

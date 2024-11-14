@@ -1,0 +1,142 @@
+/* Reset стилі для початку */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Загальні стилі для всієї сторінки */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Стилі для заголовка */
+header {
+  background-color: #fff;
+  padding: 20px;
+    margin-bottom: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+
+/* Стилі для підвалу */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+footer p {
+  font-size: 14px;
+}
+.nav-pills{
+ display: flex;
+  flex-direction: column;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.project {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.project h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.project a {
+  display: inline-block;
+  background-color: #ff9800;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.project a:hover {
+  background-color: #f57c00;
+}
+
+
+
+
+
+
+.feature {
+  margin-bottom: 30px;
+}
+ h2{
+  margin-top: 55px;
+  margin-bottom: 20px;
+ }
+.feature h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.feature p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
